@@ -4,7 +4,7 @@ using System;
 namespace Name
 {
     
- class MainClase 
+ class MainClass 
  
     {
 
