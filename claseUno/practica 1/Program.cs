@@ -1,14 +1,19 @@
 
 using System;
 
-class Holamundo {
-
-    public static void Main(string[] args)
+namespace Name
+{
     
+ class MainClase 
+ 
     {
 
-        Console.WriteLine("Hola Mundo!!!");
+        public static void Main(string[] args)
+    
+        {
 
+            Console.WriteLine("Hola Mundo!!!");
+
+         }
     }
-
 }
