@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\162991\\practicaUnopuntoUno\\practicaUnopuntoUno\\practicaUnopuntoUno.csproj",
-      "projectName": "practicaUnopuntoUno",
-      "projectPath": "C:\\Users\\alumno\\Desktop\\162991\\practicaUnopuntoUno\\practicaUnopuntoUno\\practicaUnopuntoUno.csproj",
+      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\162991\\practicaUnopuntoUno\\PracticaDos\\PracticaDos.csproj",
+      "projectName": "PracticaDos",
+      "projectPath": "C:\\Users\\alumno\\Desktop\\162991\\practicaUnopuntoUno\\PracticaDos\\PracticaDos.csproj",
       "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alumno\\Desktop\\162991\\practicaUnopuntoUno\\practicaUnopuntoUno\\obj\\",
+      "outputPath": "C:\\Users\\alumno\\Desktop\\162991\\practicaUnopuntoUno\\PracticaDos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

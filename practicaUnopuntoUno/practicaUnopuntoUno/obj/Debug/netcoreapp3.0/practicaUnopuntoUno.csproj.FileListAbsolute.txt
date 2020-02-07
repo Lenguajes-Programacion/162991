@@ -9,3 +9,14 @@ C:\Users\alumno\Documents\GitHub\162991\practicaUnopuntoUno\practicaUnopuntoUno\
 C:\Users\alumno\Documents\GitHub\162991\practicaUnopuntoUno\practicaUnopuntoUno\obj\Debug\netcoreapp3.0\practicaUnopuntoUno.AssemblyInfo.cs
 C:\Users\alumno\Documents\GitHub\162991\practicaUnopuntoUno\practicaUnopuntoUno\obj\Debug\netcoreapp3.0\practicaUnopuntoUno.dll
 C:\Users\alumno\Documents\GitHub\162991\practicaUnopuntoUno\practicaUnopuntoUno\obj\Debug\netcoreapp3.0\practicaUnopuntoUno.pdb
+C:\Users\alumno\Desktop\162991\practicaUnopuntoUno\practicaUnopuntoUno\bin\Debug\netcoreapp3.0\practicaUnopuntoUno.exe
+C:\Users\alumno\Desktop\162991\practicaUnopuntoUno\practicaUnopuntoUno\bin\Debug\netcoreapp3.0\practicaUnopuntoUno.deps.json
+C:\Users\alumno\Desktop\162991\practicaUnopuntoUno\practicaUnopuntoUno\bin\Debug\netcoreapp3.0\practicaUnopuntoUno.runtimeconfig.json
+C:\Users\alumno\Desktop\162991\practicaUnopuntoUno\practicaUnopuntoUno\bin\Debug\netcoreapp3.0\practicaUnopuntoUno.runtimeconfig.dev.json
+C:\Users\alumno\Desktop\162991\practicaUnopuntoUno\practicaUnopuntoUno\bin\Debug\netcoreapp3.0\practicaUnopuntoUno.dll
+C:\Users\alumno\Desktop\162991\practicaUnopuntoUno\practicaUnopuntoUno\bin\Debug\netcoreapp3.0\practicaUnopuntoUno.pdb
+C:\Users\alumno\Desktop\162991\practicaUnopuntoUno\practicaUnopuntoUno\obj\Debug\netcoreapp3.0\practicaUnopuntoUno.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\162991\practicaUnopuntoUno\practicaUnopuntoUno\obj\Debug\netcoreapp3.0\practicaUnopuntoUno.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\162991\practicaUnopuntoUno\practicaUnopuntoUno\obj\Debug\netcoreapp3.0\practicaUnopuntoUno.AssemblyInfo.cs
+C:\Users\alumno\Desktop\162991\practicaUnopuntoUno\practicaUnopuntoUno\obj\Debug\netcoreapp3.0\practicaUnopuntoUno.dll
+C:\Users\alumno\Desktop\162991\practicaUnopuntoUno\practicaUnopuntoUno\obj\Debug\netcoreapp3.0\practicaUnopuntoUno.pdb
