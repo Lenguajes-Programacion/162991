@@ -12,6 +12,7 @@ namespace practica3
             double numeroDos;
             double resultado = 0;
             double resultadoDos;
+            double resSumaAnt;
             
   
             do
@@ -23,8 +24,8 @@ namespace practica3
                     "Opcion 2: Resta\n" +
                     "Opcion 3: Multipilcacion\n" +
                     "Opcion 4: Division\n" +
-                    "Opcion 5: Sumar el resultado aterior es: " + resultado + "\n" +
-                    "Opcion 6: Salir\n");
+                    "Opcion 5: Salir\n" + 
+                    "Resultado Anterior: " + resultado);
 
                    
 
@@ -42,11 +43,32 @@ namespace practica3
 
                         Console.WriteLine("Porfavor escriba el segundo numero a sumar: \n");
                         numeroDos = Convert.ToDouble(Console.ReadLine());
-  
-                          resultado = numeroUno + numeroDos;
 
+                        
+
+                        Console.WriteLine("Presione 1 para realizar la operación \n" + "Presione 2 para realizar una nueva suma con el resultado de la opereación anterior"
+                        );
+
+                        resSumaAnt = Convert.ToDouble(Console.ReadLine());
+
+                        if(resSumaAnt == 1)
+                        {
+                          resultado = numeroUno + numeroDos;
                           Console.WriteLine("el resultado es: \n" + resultado);
-                       
+                        
+                        }
+                       else
+                       {
+                         Console.WriteLine("El resultado anterior es: " + resultado + "\n");
+
+                        Console.WriteLine("Agregue el numero que desea sumar con el resultado anterior");
+                        numeroUno = Convert.ToDouble(Console.ReadLine());
+
+                        resultadoDos = resultado + numeroUno;
+
+                        Console.WriteLine("El resultado es: " + resultadoDos);
+
+                       }
                         break;
 
                     case 2:
@@ -57,7 +79,31 @@ namespace practica3
                         Console.WriteLine("Porfavor escriba el segundo numero a restar: \n");
                         numeroDos = Convert.ToDouble(Console.ReadLine());
 
-                        resultado = numeroUno - numeroDos;
+                        Console.WriteLine("Presione 1 para realizar la operación \n" + "Presione 2 para realizar una nueva resta con el resultado de la opereación anterior"
+                        );
+
+                        resSumaAnt = Convert.ToDouble(Console.ReadLine());
+
+                        if(resSumaAnt == 1)
+                        {
+                          resultado = numeroUno - numeroDos;
+                          Console.WriteLine("el resultado es: \n" + resultado);
+                        
+                        }
+                       else
+                       {
+                         Console.WriteLine("El resultado anterior es: " + resultado + "\n");
+
+                        Console.WriteLine("Agregue el numero que desea restar con el resultado anterior");
+                        numeroUno = Convert.ToDouble(Console.ReadLine());
+
+                        resultadoDos = resultado - numeroUno;
+
+                        Console.WriteLine("El resultado es: " + resultadoDos);
+
+                       }
+
+                        
                         break;
 
                     case 3:
@@ -68,9 +114,29 @@ namespace practica3
                         Console.WriteLine("Porfavor escriba el segundo numero a multiplicar: \n");
                         numeroDos = Convert.ToDouble(Console.ReadLine());
 
-                        resultado = numeroUno * numeroDos;
+                        Console.WriteLine("Presione 1 para realizar la operación \n" + "Presione 2 para realizar una nueva multiplicacion con el resultado de la opereación anterior"
+                        );
 
-                        Console.WriteLine("el resultado es: \n" + resultado); 
+                        resSumaAnt = Convert.ToDouble(Console.ReadLine());
+
+                        if(resSumaAnt == 1)
+                        {
+                          resultado = numeroUno * numeroDos;
+                          Console.WriteLine("el resultado es: \n" + resultado);
+                        
+                        }
+                       else
+                       {
+                         Console.WriteLine("El resultado anterior es: " + resultado + "\n");
+
+                        Console.WriteLine("Agregue el numero que desea multiplicar con el resultado anterior");
+                        numeroUno = Convert.ToDouble(Console.ReadLine());
+
+                        resultadoDos = resultado * numeroUno;
+
+                        Console.WriteLine("El resultado es: " + resultadoDos);
+
+                       }
                         
 
                         break;
@@ -83,26 +149,34 @@ namespace practica3
                         Console.WriteLine("Porfavor escriba el numero divisor: \n");
                         numeroDos = Convert.ToDouble(Console.ReadLine());
 
-                        resultado = numeroUno / numeroDos;
+                        Console.WriteLine("Presione 1 para realizar la operación \n" + "Presione 2 para realizar una nueva division con el resultado de la opereación anterior"
+                        );
 
-                        Console.WriteLine("el resultado es: \n" + resultado); 
+                        resSumaAnt = Convert.ToDouble(Console.ReadLine());
+
+                        if(resSumaAnt == 1)
+                        {
+                          resultado = numeroUno / numeroDos;
+                          Console.WriteLine("el resultado es: \n" + resultado);
+                        
+                        }
+                       else
+                       {
+                         Console.WriteLine("El resultado anterior es: " + resultado + "\n");
+
+                        Console.WriteLine("Agregue el numero que desea dividir con el resultado anterior");
+                        numeroUno = Convert.ToDouble(Console.ReadLine());
+
+                        resultadoDos = numeroUno / resultado;
+
+                        Console.WriteLine("El resultado es: " + resultadoDos);
+
+                       }
                          break;
 
+                    
+
                     case 5:
-                      Console.WriteLine("El seultado anterior es: " + resultado + "\n");
-
-                      Console.WriteLine("Agregue el numero que desea sumar con el resultado anterior");
-                      numeroUno = Convert.ToDouble(Console.ReadLine());
-
-                      resultadoDos = resultado + numeroUno;
-
-                      Console.WriteLine("El resultado es: " + resultadoDos);
-
-
-
-                      break;
-
-                    case 6:
 
                         Console.WriteLine("Hasta Luego");
                         break;
