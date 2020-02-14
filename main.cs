@@ -1,25 +1,68 @@
 using System;
-
-namespace practica3
+namespace entregaUno
 {
-    class Program
+  class MainClass {
+    public static void Main (string[] args) 
     {
-        static void Main(string[] args)
+      int ninten;
+      double numeroUno;
+      double numeroDos;
+      double resultado = 0;
+      double resultadoDos;       
+      double resSumaAnt;
+      int opcion;
 
+      do
+      {
+
+        Console.WriteLine("Bienvenido\n" +
+        "Opcion 1: Verificación de argumentos.\n" +
+        "opcion 2: Calculadora.\n" +
+        "Opcion 3: Salida.\n");
+
+        opcion = Convert.ToInt32(Console.ReadLine());
+      
+        switch(opcion)
         {
-            int ninten;
-            double numeroUno;
-            double numeroDos;
-            double resultado = 0;
-            double resultadoDos;
-            double resSumaAnt;
-            
-  
-            do
-            {
+          case 1:
+            string usuario;
+            int contrasena;
+            string nombreUsuario = "Jesus Recendiz";
+            int contrasenaUsuario = 1234;
 
-               
-                Console.WriteLine("Buenas Tardes, porfavor escriba la operacion que desea realizar\n" +
+            Console.WriteLine("Porfavor escriba el nombre de usuario\n");
+            
+            usuario = Console.ReadLine();
+
+            if(nombreUsuario == usuario)
+            {
+              Console.WriteLine("Nombre de usuario correcto, porfavor escriba la contraseña\n");
+
+              contrasena = Convert.ToInt32(Console.ReadLine());
+
+              if(contrasenaUsuario == contrasena)
+              {
+                Console.WriteLine("La contraseña es correcta, bienvenido\n");
+
+              }
+
+              else
+              {
+                Console.WriteLine("La contraseña es incorrecta\n");
+              }
+
+
+            }
+            else 
+            {
+              Console.WriteLine("El nombre de usuario es incorrecto\n");
+            }
+        
+          break;
+
+          case 2:
+            do{
+            Console.WriteLine("Buenas Tardes, porfavor escriba la operacion que desea realizar\n" +
                     "Opcion 1: Suma\n" +
                     "Opcion 2: Resta\n" +
                     "Opcion 3: Multipilcacion\n" +
@@ -188,8 +231,28 @@ namespace practica3
                         break;
                 }
 
+            } while(ninten != 5);
 
-            } while (ninten != 6);
+          break;
+
+          case 3:
+
+            Console.WriteLine("Yare Yare Daze");
+
+          break;
+
+          default:
+          Console.WriteLine("La opción es invalida");
+          break;
+
+      
         }
+
+      } while(opcion != 3);  
+    
+
+
+
     }
+  }
 }
