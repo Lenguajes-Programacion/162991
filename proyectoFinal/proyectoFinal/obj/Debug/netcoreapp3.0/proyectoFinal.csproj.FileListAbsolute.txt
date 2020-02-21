@@ -1,0 +1,13 @@
+C:\Users\alumno\Desktop\162991\proyectoFinal\proyectoFinal\obj\Debug\netcoreapp3.0\proyectoFinal.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\162991\proyectoFinal\proyectoFinal\obj\Debug\netcoreapp3.0\proyectoFinal.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\162991\proyectoFinal\proyectoFinal\obj\Debug\netcoreapp3.0\proyectoFinal.AssemblyInfo.cs
+C:\Users\alumno\Desktop\162991\proyectoFinal\proyectoFinal\bin\Debug\netcoreapp3.0\proyectoFinal.exe
+C:\Users\alumno\Desktop\162991\proyectoFinal\proyectoFinal\bin\Debug\netcoreapp3.0\proyectoFinal.deps.json
+C:\Users\alumno\Desktop\162991\proyectoFinal\proyectoFinal\bin\Debug\netcoreapp3.0\proyectoFinal.runtimeconfig.json
+C:\Users\alumno\Desktop\162991\proyectoFinal\proyectoFinal\bin\Debug\netcoreapp3.0\proyectoFinal.runtimeconfig.dev.json
+C:\Users\alumno\Desktop\162991\proyectoFinal\proyectoFinal\bin\Debug\netcoreapp3.0\proyectoFinal.dll
+C:\Users\alumno\Desktop\162991\proyectoFinal\proyectoFinal\bin\Debug\netcoreapp3.0\proyectoFinal.pdb
+C:\Users\alumno\Desktop\162991\proyectoFinal\proyectoFinal\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\alumno\Desktop\162991\proyectoFinal\proyectoFinal\obj\Debug\netcoreapp3.0\proyectoFinal.csproj.CopyComplete
+C:\Users\alumno\Desktop\162991\proyectoFinal\proyectoFinal\obj\Debug\netcoreapp3.0\proyectoFinal.dll
+C:\Users\alumno\Desktop\162991\proyectoFinal\proyectoFinal\obj\Debug\netcoreapp3.0\proyectoFinal.pdb

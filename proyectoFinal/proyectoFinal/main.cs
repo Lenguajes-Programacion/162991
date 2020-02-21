@@ -1,6 +1,4 @@
 using System;
-using System.IO;
-using Newtonsoft.Json.Linq;
 
 //Entrega 100
 namespace entregaUno
@@ -14,7 +12,8 @@ namespace entregaUno
         Console.WriteLine("Bienvenido\n" +
         "Opcion 1: Verificación de argumentos.\n" +
         "opcion 2: Calculadora.\n" +
-        "Opcion 3: Salida.\n");
+        "Opcion 3: Memoria\n" +
+        "Opcion 4: Salida\n" );
         opcion = Convert.ToInt32(Console.ReadLine());
       
         switch(opcion)
@@ -30,6 +29,12 @@ namespace entregaUno
           break;
 
           case 3:
+            memoria memo01 = new memoria();
+            memo01.leerMemoria();
+            break;
+             
+
+          case 4:
             Console.WriteLine("Yare Yare Daze");
           break;
 
@@ -38,7 +43,7 @@ namespace entregaUno
           break;      
         }
 
-      } while(opcion != 3);  
+      } while(opcion != 4);  
     }
   }
 }
