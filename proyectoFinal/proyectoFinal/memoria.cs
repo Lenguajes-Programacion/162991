@@ -13,12 +13,33 @@ namespace entregaUno
             var dbJSON = reader.ReadToEnd();
             var dbObject = JObject.Parse(dbJSON);
             var result = dbObject.ToString();
-            foreach(var item in dbObject)
+            foreach ((var key, var item) in dbObject)
             {
-                Console.WriteLine("Dato de Memoeria: \n");
-                Console.WriteLine(item.ToString());
+                Console.WriteLine("Dato de Memoria: \n");
+                MemoriaData memoriaData01 = new MemoriaData(DateTime.Now, item.Value["operacion"].ToString(), (int) item.Value["resultado"]);
+                Console.WriteLine(item.Key.ToString());
+                Console.WriteLine(memoriaData01.resultado.ToString());
             }
             Console.WriteLine(result);
         }
+
+      
+    }
+
+
+    class MemoriaData
+    {
+        public DateTime fecha;
+        public string operacion;
+        public int resultado;
+
+        public MemoriaData(DateTime date, string operation, int result)
+        {
+            fecha = date;
+            operacion = operation;
+            resultado = result;
+
+        }
+
     }
 }
