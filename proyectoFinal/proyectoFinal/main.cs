@@ -30,7 +30,7 @@ namespace entregaUno
 
           case 3:
             memoria memo01 = new memoria();
-                        memo01.leerMemoria();
+            memo01.leerMemoria();
 
             break;
              
