@@ -5,21 +5,21 @@ namespace entregaUno
 {
   class Calculadora
   {
-    int ninten;
+       
+       
+
+        int ninten;
             double numeroUno;
             double numeroDos;
-            double resultado = 0;
+            double resultado;
             double resultadoDos;
             double resSumaAnt;
             
-  
-
             public void calcular()
             {
             do
             {
 
-               
                 Console.WriteLine("Buenas Tardes, porfavor escriba la operacion que desea realizar\n" +
                     "Opcion 1: Suma\n" +
                     "Opcion 2: Resta\n" +

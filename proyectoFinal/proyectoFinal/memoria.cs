@@ -8,6 +8,9 @@ namespace entregaUno
     {
         public void leerMemoria()
         {
+          
+
+
             string archivoDB = "../../../db.json";
             StreamReader reader = new StreamReader(archivoDB);
             var dbJSON = reader.ReadToEnd();
@@ -37,9 +40,9 @@ namespace entregaUno
     {
         public DateTime fecha;
         public string operacion;
-        public int resultado;
+        public double resultado;
 
-        public MemoriaData(DateTime date, String operation, int result)
+        public MemoriaData(DateTime date, String operation, double result)
         {
             fecha = date;
             operacion = operation;
