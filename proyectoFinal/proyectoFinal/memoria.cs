@@ -37,14 +37,14 @@ namespace entregaUno
     class MemoriaData
     {
         public DateTime fecha;
-        public string operacion;
+        public String operacion;
         public double resultado;
 
-        public MemoriaData(DateTime date, String operation, double result)
+        public MemoriaData(String date, String operation, String result)
         {
-            fecha = date;
+            fecha = DateTime.Parse(date);
             operacion = operation;
-            resultado = result;
+            resultado = int.Parse(result);
 
         }
 
