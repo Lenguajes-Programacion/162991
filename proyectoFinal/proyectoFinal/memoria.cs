@@ -8,9 +8,7 @@ namespace entregaUno
     {
         public void leerMemoria()
         {
-          
-
-
+            
             string archivoDB = "../../../db.json";
             StreamReader reader = new StreamReader(archivoDB);
             var dbJSON = reader.ReadToEnd();

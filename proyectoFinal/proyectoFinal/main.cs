@@ -32,11 +32,11 @@ namespace entregaUno
             memoria memo01 = new memoria();
             memo01.leerMemoria();
 
-            break;
+          break;
              
 
           case 4:
-            Console.WriteLine("Yare Yare Daze");
+          Console.WriteLine("Yare Yare Daze");
           break;
 
           default:

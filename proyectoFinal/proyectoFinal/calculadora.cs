@@ -5,10 +5,7 @@ namespace entregaUno
 {
   class Calculadora
   {
-       
-       
-
-        int ninten;
+            int ninten;
             double numeroUno;
             double numeroDos;
             double resultado;
@@ -179,7 +176,7 @@ namespace entregaUno
 
                     case 5:
 
-                        Console.WriteLine("Hasta Luego");
+                        Console.WriteLine("¡Nos vemos Luego!");
                         break;
 
 
