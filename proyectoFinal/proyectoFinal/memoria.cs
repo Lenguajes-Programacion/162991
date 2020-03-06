@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json.Linq;
 using System.IO;
 using System;
+using System.Collections.Generic;
 
 namespace entregaUno
 {
@@ -30,7 +31,19 @@ namespace entregaUno
            
         }
 
-      
+        public void arreglo()
+        {
+            string[] colores00 = { "rojo", "blanco", "morado" };
+            // List<string> Colores = ["rojo", "blanco", "morado"];
+
+            Console.WriteLine(colores00);
+
+           
+
+        }
+
+
+
     }
 
 
@@ -48,5 +61,9 @@ namespace entregaUno
 
         }
 
+       
     }
+
+    
+
 }

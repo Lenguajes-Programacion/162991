@@ -1,17 +1,24 @@
-{
-  //"key":  "value",
-  "2020-02-21": {
-    "Operacion": "5+5",
-    "Resultado": 10
-  },
+[
+  {
 
-  "2020-02-22": {
-    "Operacion": "2+7",
-    "Resultado": 9
-  },
+     {
 
-  "2020-02-23": {
-    "Operacion": "5+6",
-    "Resultado": 11
+      "Fecha" : "2020-02-21",
+      "Operacion": "5+5",
+      "Resultado": 10
+    },
+
+    {
+      "Fecha": "2020-02-22",
+      "Operacion": "2+7",
+      "Resultado": 9
+    },
+
+    {
+
+      "fecha": "2020-02-23",
+      "Operacion": "5+6",
+      "Resultado": 11
+    }
   }
-}
+]

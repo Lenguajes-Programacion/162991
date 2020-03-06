@@ -29,8 +29,8 @@ namespace entregaUno
           break;
 
           case 3:
-            memoria memo01 = new memoria();
-            memo01.leerMemoria();
+          memoria arreglo00 = new memoria();
+          arreglo00.arreglo();
 
           break;
              
