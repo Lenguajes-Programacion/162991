@@ -1,3 +1,4 @@
+using Newtonsoft;
 using System;
 
 //Entrega 100
@@ -29,8 +30,8 @@ namespace entregaUno
           break;
 
           case 3:
-          memoria arreglo00 = new memoria();
-          arreglo00.arreglo();
+          Memoria memoriaData00 = new Memoria();
+          memoriaData00.leerMemoria();
 
           break;
              
